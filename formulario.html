@@ -1,0 +1,58 @@
+<!doctype html />
+<html lang="pt-br">
+
+<head>
+    <title>Personagens</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="Imagens/snake.png">
+</head>
+
+<body bgcolor="#800000">
+    <font size="7" face="Goudy Old Style" color="white">
+        <a href="index.html">Voltar para página principal</a>
+        <center>
+            <font color="#FFA500">
+                <h1><u>Formulário</u></h1>
+            </font>
+        </center>
+        <fieldset>
+            <legend>Fale conosco</legend>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Dados</legend>
+                    <p>
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" autocomplete="on"
+                            maxlength="30" size="40" required="" />
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="Digite seu email." autocomplete="on"
+                            maxlength="30" size="40" required />
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Mensagem</legend>
+                    <p>
+                        Assunto:<br>
+                        <input type="radio" name="assunto" value="0" checked>Pessoal
+                        <input type="radio" nome="assunto" value="1" checked>Public
+                    </p>
+                    <p>
+                        Enviar para: <br>
+                        <input type="checkbox" name="president" id="president" checked>
+                        <label for="copia">Presidente</label>
+
+                        <input type="checkbox" name="diretor" id="diretor" checked>
+                        <label for="diretor">Diretor</label>
+                    </p>
+                    
+                   
+                </fieldset>
+
+            </form>
+        </fieldset>
+    </font>
+</body>
+
+</html>
